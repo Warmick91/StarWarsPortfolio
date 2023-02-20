@@ -17,11 +17,11 @@
 
 body {
   font-family: "Trebuchet MS";
-  background-color: #663322;
+  background-color: #863322;
   min-width: 1000px;
   min-height: 500px;
   max-width: 1000px;
-  margin: 15px;
+  margin: 0px auto;
 }
 
 /* WING LINES */
@@ -353,3 +353,4 @@ div.heading {
   padding: 20px;
   box-shadow: 3px 3px 5px black;
 }
+
