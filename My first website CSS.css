@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'falconsfontregular';
+  src: url('falconsfont-webfont.woff2') format('woff2'),
+    url('falconsfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'hunterraregular';
+  src: url('hunterra-webfont.woff2') format('woff2'),
+    url('hunterra-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Trebuchet MS";
+  background-color: #663322;
+  min-width: 1000px;
+  min-height: 500px;
+  max-width: 1000px;
+  margin: 15px;
+}
+
+/* WING LINES */
+hr {
+  border-top: 1px solid black;
+}
+
+.hr40 {
+  width: 90%;
+  position: relative;
+  top: 50px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.hr30 {
+  width: 70%;
+  position: relative;
+  top: 60px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.hr20 {
+  width: 50%;
+  position: relative;
+  top: 70px;
+  box-shadow: 3px 3px 5px black;
+}
+
+#hrl1 {}
+
+#hrr1 {}
+
+#hrl2 {
+  left: 28px;
+}
+
+#hrr2 {
+  right: 28px;
+}
+
+#hrl3 {
+  left: 56px;
+}
+
+#hrr3 {
+  right: 56px;
+}
+
+/* PROFILE PIC */
+.intro img {
+  border: 2px double #000000;
+  border-radius: 160px;
+  box-shadow: 3px 3px 10px black;
+  position: relative;
+  margin-bottom: 40px;
+  animation-name: phantom_text;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+div.heading {
+  -webkit-text-stroke: 1px white;
+  /*width and color */
+  font-size: 40px;
+  font-family: "hunterraregular";
+  text-shadow: 2px 2px 20px white;
+  animation-name: phantom_text;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  position: relative;
+  bottom: 15px;
+}
+
+.intro {
+  background-color: #587059;
+  padding: 20px;
+  text-align: center;
+  border-style: double;
+  border-radius: 15px;
+  border-width: 7px;
+  border-top-right-radius: 135px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  box-shadow: 3px 3px 5px black;
+  max-width: 1000px;
+}
+
+
+.column_intro_1 {
+  width: 30%;
+  height: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.column_intro_2 {
+  display: inline-block;
+}
+
+.column_intro_3 {
+  width: 30%;
+  height: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.prof {
+  -webkit-text-stroke: 1px white;
+  font-family: "hunterraregular";
+  font-size: 27px;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 5px black;
+  animation-name: phantom_text;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  position: relative;
+  bottom: 15px;
+}
+
+@keyframes phantom_text {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.summary {
+  font-size: 17px;
+  font-family: hunterraregular;
+  text-shadow: 2px 2px 4px white;
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 5px;
+  animation-name: letter_spacing;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes letter_spacing {
+  from {
+    letter-spacing: 7px;
+    opacity: 0;
+  }
+
+  to {
+    letter-spacing: 2px;
+    opacity: 1;
+  }
+}
+
+.subheading {
+  -webkit-text-stroke: 2px black;
+  font-family: "hunterraregular";
+  font-size: 25px;
+  color: white;
+  background-color: #EEDDCC;
+  padding: 5px;
+  border-style: double;
+  border-radius: 15px;
+  border-width: 6px;
+  border-top-right-radius: 135px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-color: black;
+  text-shadow: 2px 2px 4px black;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  box-shadow: 3px 3px 2px black;
+}
+
+@keyframes letter_opacity_normal {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.sub_title {
+  animation-name: letter_opacity_normal;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+.contactinfo {
+  border-style: double;
+  border-radius: 15px;
+  border-top-right-radius: 135px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-color: black;
+  padding: 20px;
+  background-color: #787765;
+  box-shadow: 3px 3px 5px black;
+}
+
+.subheading_text {
+  color: rgba(0, 0, 0, 0.0);
+  animation-name: letter_transparency_normal;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes letter_transparency_normal {
+  from {
+    color: rgba(0, 0, 0, 0.0);
+    opacity: 0;
+  }
+
+  to {
+    color: rgba(0, 0, 0, 1);
+    opacity: 1;
+  }
+}
+
+.languages {
+  background-color: #787765;
+  border-style: double;
+  border-radius: 15px;
+  border-top-right-radius: 135px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-color: black;
+  padding: 15px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  text-align: left;
+  padding: 15px;
+  border-style: double;
+  border-radius: 15px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  background-color: #787765;
+  box-shadow: 3px 3px 5px black;
+}
+
+#knowledge {
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
+
+.skill_name {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.explist {
+  background-color: #787765;
+  border-style: double;
+  border-radius: 15px;
+  border-top-right-radius: 135px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-color: black;
+  padding: 15px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.expdescrip {
+  font-size: smaller;
+}
+
+.date {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.starfighters {
+  position: static;
+  background-color: #787765;
+  border-style: double;
+  border-radius: 15px;
+  border-top-right-radius: 135px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-color: black;
+  padding: 15px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.starfighters ul li {
+  text-decoration: underline;
+  font-weight: 900;
+  color: black;
+  font-size: 15px;
+}
+
+.s_progress {
+  max-height: 10px;
+  width: 45%;
+  position: relative;
+  top: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.value {
+  margin-left: 10px;
+  position: relative;
+  bottom: 5px;
+  font-weight: 900;
+}
+
+.social {
+  background-color: #787765;
+  border-style: double;
+  border-radius: 15px;
+  border-top-right-radius: 135px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-color: black;
+  padding: 20px;
+  box-shadow: 3px 3px 5px black;
+}
