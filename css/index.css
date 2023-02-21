@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'falconsfontregular';
-  src: url('falconsfont-webfont.woff2') format('woff2'),
-    url('falconsfont-webfont.woff') format('woff');
+  src: url('../src/falconsfont-webfont.woff2') format('woff2'),
+    url('../src/falconsfont-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'hunterraregular';
-  src: url('hunterra-webfont.woff2') format('woff2'),
-    url('hunterra-webfont.woff') format('woff');
+  src: url('../src/hunterra-webfont.woff2') format('woff2'),
+    url('../src/hunterra-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -50,9 +50,9 @@ hr {
   box-shadow: 3px 3px 5px black;
 }
 
-#hrl1 {}
+/*#hrl1 {}
 
-#hrr1 {}
+#hrr1 {}*/
 
 #hrl2 {
   left: 28px;
@@ -96,8 +96,10 @@ div.heading {
 }
 
 .intro {
+  margin-top: 100px;
+  margin-bottom: 100px;
   background-color: #587059;
-  padding: 20px;
+  padding: 70px;
   text-align: center;
   border-style: double;
   border-radius: 15px;
@@ -127,7 +129,6 @@ div.heading {
   display: inline-block;
   vertical-align: top;
 }
-
 
 .prof {
   -webkit-text-stroke: 1px white;
@@ -355,7 +356,7 @@ div.heading {
 }
 
 
-
+/* Side menu */
 #side-menu {
   position: fixed;
   top: 0;
